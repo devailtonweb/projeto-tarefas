@@ -1,0 +1,9 @@
+<div class="mat-elevation-z0 card" *ngIf="albums != null">
+    <mat-card  *ngFor="let item of albums">
+        <img mat-card-image src="https://source.unsplash.com/random/150x120?sig={{item.id}}" alt="{{item.id}}" class="item-cards">
+        <mat-card-content class="card-content">
+            <div><b>Título</b></div>
+            {{item.title}}
+        </mat-card-content>
+    </mat-card>
+</div>

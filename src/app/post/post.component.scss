@@ -1,0 +1,22 @@
+.mat-column-id,
+.mat-column-control {
+    flex: none;
+    width: 80px;
+}
+
+.mat-column-post {
+    line-height: 20px;
+}
+
+.mat-column-post ~ div {
+    margin-bottom: 10px;
+}
+
+.post {
+    padding: 10px 0 30px;
+}
+
+.post img {
+    float: left;
+    margin-right: 10px;
+}
