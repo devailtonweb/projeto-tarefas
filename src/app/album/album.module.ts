@@ -3,21 +3,18 @@ import { CommonModule } from '@angular/common';
 
 import { AlbumRoutingModule } from './album-routing.module';
 import { AlbumComponent } from './album.component';
-import { MatTableModule, MatButtonModule, MatIconModule, MatTooltipModule, MatPaginatorModule, MatCardModule, MatGridListModule, MatProgressSpinnerModule } from '@angular/material';
+import { MatButtonModule, MatIconModule, MatTooltipModule, MatPaginatorModule, MatCardModule } from '@angular/material';
 
 @NgModule({
   declarations: [AlbumComponent],
   imports: [
     CommonModule,
     AlbumRoutingModule,
-    MatTableModule,
     MatButtonModule, 
     MatIconModule,
     MatTooltipModule, 
     MatPaginatorModule,
-    MatCardModule,
-    MatGridListModule,
-    MatProgressSpinnerModule
+    MatCardModule
   ]
 })
 export class AlbumModule { }
