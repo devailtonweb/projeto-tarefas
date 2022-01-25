@@ -1,5 +1,5 @@
 
-# Framework Digital | Front-End Angular
+# Material | Front-End Angular
 
 Na aplicação foi utilizado a versão 8 do Angular e o Design System Material Angular.
 
